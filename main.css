@@ -1,0 +1,55 @@
+div.content {
+	text-align: center;
+	margin-top: 89px;
+}
+div.logo {
+	min-width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.searchbox {
+	padding-top: 18px;
+	width: 466px;
+	height: 26px;
+}
+
+.navbar {
+	width: 100%;
+	border: 1px;
+	top: auto;
+	position: absolute;
+	top: 0px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+li {
+	display: inline;
+
+}
+a {
+	display: inline-block;
+	line-height: 24px;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	color: #222;
+	padding-right: 15px;
+	vertical-align: middle;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+div.signin {
+	display: inline-block;
+	background-color: #4285f4;
+	color: #fff;
+	font-weight: bold;
+	width: 60px;
+	text-align: center;
+}
