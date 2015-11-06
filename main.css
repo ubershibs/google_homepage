@@ -1,17 +1,41 @@
 div.content {
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 89px;
+	position: relative;
 }
 div.logo {
 	min-width: 600px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
+
 .searchbox {
 	padding-top: 18px;
 	width: 466px;
-	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+}
+
+input[type="text"] {
+	display: block;
+	width: 100%;
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	box-shadow: none;
+}
+
+input[type="submit"] {
+	display: inline-block;
+	border: 1px;
+	background: #f2f2f2;
+	font-size: 13px;
+	line-height: 24px;
+	height: 30px;
+	width: 130px;
 }
 
 .navbar {
@@ -19,14 +43,35 @@ div.logo {
 	border: 1px;
 	top: auto;
 	position: absolute;
-	top: 0px;
+	top: 20px;
 }
+
+.footer {
+	background: #f2f2f2;
+	bottom: auto;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	border: 0px;
+	border-top: 1px;
+	line-height: 40px;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	float: right;
 }
+
+.nav, .footer_right {
+		float: right;
+		padding-right: 30px;
+}
+
+.footer_left {
+	float: left;
+}
+
 li {
 	display: inline;
 
@@ -47,9 +92,11 @@ a:hover {
 
 div.signin {
 	display: inline-block;
+	line-height: 28px;
+	padding: 0 12px;
+	border-radius: 2px;
 	background-color: #4285f4;
 	color: #fff;
 	font-weight: bold;
-	width: 60px;
 	text-align: center;
 }
